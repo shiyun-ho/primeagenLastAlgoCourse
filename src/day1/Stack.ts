@@ -1,18 +1,18 @@
 export default class Stack<T> {
-    public length: number;
+  public length: number;
 
-    
+  //TODO: Remember Stack is similar to LinkedList
+  constructor() {
+  }
 
-    constructor() {
-    }
+  push(item: T): void {
 
-    push(item: T): void {
+  }
+  pop(): T | undefined {
 
-}
-    pop(): T | undefined {
+  }
 
-}
-    peek(): T | undefined {
+  peek(): T | undefined {
 
-}
+  }
 }
